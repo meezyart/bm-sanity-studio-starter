@@ -1,6 +1,6 @@
-![ByMattLee Sanity Studio Starter Screenshot](http://hosted.bymattlee.com/github/bymattlee-sanity-studio-starter-screenshot.jpg)
+![Meezyart Sanity Studio Starter Screenshot](http://hosted.meezyart.com/github/meezyart-sanity-studio-starter-screenshot.jpg)
 
-# ByMattLee Sanity Studio Starter
+# Meezyart Sanity Studio Starter
 A starter headless CMS that features Sanity Studio and includes basic sections and fields.
 
 ## Installation
@@ -35,7 +35,7 @@ $ yarn deploy
 ```
 
 ## Features
-* Use with your favorite front-end setup. This pairs perfectly with the [ByMattLee 11ty Starter](https://github.com/bymattlee/bymattlee-11ty-starter) or [ByMattLee Nuxt Starter](https://github.com/bymattlee/bymattlee-nuxt-starter)
+* Use with your favorite front-end setup. This pairs perfectly with the [MEezyart 11ty Starter](https://github.com/meezyart/meezyart-11ty-starter) or [meezyart Nuxt Starter](https://github.com/meezyart/meezyart-nuxt-starter)
 * Custom dashboard configuration with Netlify deployment
 * Predefined fields and blocks for Pages, Articles, Sections, Menus, Settings (SEO, Favicons, Social, Analytics)
 * Media browser
