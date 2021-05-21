@@ -13,7 +13,6 @@ import settingsSeo from './documents/settings/seo'
 import settingsFavicons from './documents/settings/favicons'
 import settingsSocial from './documents/settings/social'
 import settingsAnalytics from './documents/settings/analytics'
-import choreographer from './client/choreographer'
 
 // Objects
 import richTextBlock from './objects/blocks/richText'
