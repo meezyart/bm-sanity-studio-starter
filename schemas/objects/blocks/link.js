@@ -65,7 +65,7 @@ export default {
               title: 'Slug',
               type: 'slug',
               options: {
-                source: 'parent.label',
+                source: 'label',
                 maxLength: 96
               },
               description: 'Used to determine the path of the page.'
