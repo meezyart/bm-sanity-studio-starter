@@ -51,7 +51,6 @@ export default {
               title: 'Landing page',
               name: 'linkInternal',
               type: 'reference',
-
               to: [{ type: 'route' }]
             },
             {
@@ -62,20 +61,20 @@ export default {
               validation: false
             },
             {
-              name: 'slug',
+              name: 'linkPath',
               title: 'Slug',
               type: 'slug',
               options: {
-                source: 'parent.title',
+                source: 'parent.label',
                 maxLength: 96
               },
-              description: 'Used to determine the path of the page.',
-              validation: Rule =>
-                Rule.custom(slug => {
-                  return slug.current === 'articles'
-                    ? 'A page has already been set with this slug.'
-                    : true
-                })
+              description: 'Used to determine the path of the page.'
+              // validation: Rule =>
+              // Rule.custom(slug => {
+              //   return slug.current === 'articles'
+              //     ? 'A page has already been set with this slug.'
+              //     : true
+              // })
             }
             // {
             //   title: 'Path',
